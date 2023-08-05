@@ -4,13 +4,13 @@ import { veicoli } from '../components/CarDatas'
 
 function CarSlider(){
     return (
-      <div className="car-slider-container">
+      <div className="car-slider-container mr-4 ">
         
         {Object.keys(veicoli).map((Nome, index) => (
-        <div key={index} className="flex-container">
+        <div key={index} className="">
           {veicoli[Nome].map((veicolo, veicoloIndex) => (
             
-            <div key={veicoloIndex} class="flex-item">
+            <div key={veicoloIndex} class="flex-container flex-row">
                 <div className="">
                 <img src={veicolo.Img} width={350} height={250} alt={veicolo.id} /> </div>
                <div className="flex"> 

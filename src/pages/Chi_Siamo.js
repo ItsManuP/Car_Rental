@@ -22,10 +22,10 @@ function Chi_Siamo(){
         <div>
         <div className='bg-gradient-to-br from-indigo-300 to-pink-300 dark:from-indigo-900 dark:to-pink-900 '>
             <div className='flex flex-col md:flex-row items-center border-b border-red-500'>
-            <img src={background} width={800} height={650} className=' opacity-100'/>
+            <img src={background} width={800} height={650} className='rounded opacity-100'/>
             
             <div className='flex-1 pl-4 pl-4 pt-15'>
-            <div className="text-lg font-serif border-b border-black">
+            <div className="text-lg font-serif ">
                 Siamo la Pincopallino srl, azienda nata in Italia per la vendita e affitto a breve/lungo termine di autovetture
                 sul territorio italiano. Ad oggi ci troviamo su tutto il territorio italiano, con un fatturato annuo di €3.4mln ci posizioniamo come Leader nel settore.
             </div>
@@ -41,7 +41,7 @@ function Chi_Siamo(){
                 <div key={index} className="pl-4 pr-4 p-10 bg-white  m-4 rounded-lg shadow-lg border-b border-red-500 transition ease-in-out delay-50  hover:-translate-y-1 border-red-500">
                 <img src={member.img} alt={member.nome}  className="mx-auto mb-4 mx-auto rounded-full h-20 w-20"/>
                 <div className="text-2xl font-medium">{member.nome}</div>
-                <div className="text-xl text-left font-ligth">{member.ruolo}</div>
+                <div className="text-xl text-center md:text-left font-ligth">{member.ruolo}</div>
                 </div>
                 ))}
             </div>
@@ -50,11 +50,11 @@ function Chi_Siamo(){
 
 
 
-    <div class="flex flex-wrap mt-2">
+    <div class="flex flex-wrap mt-2 ">
         
 
-            <div class="w-full md:w-1/3 px-4 mb-8">
-            <div class="border rounded-lg p-4">
+            <div class="w-full md:w-1/3 px-4 mb-8 ">
+            <div class="border border-black rounded-lg p-4 hover:bg-gray-300">
             <p class="text-gray-800">
             Ottimo prodotto, molto soddisfatto dell'acquisto!<br/>
             Vorrei far notare la serietà nel consigliarmi un modello adatto alle mie esigenze<br/>
@@ -74,7 +74,7 @@ function Chi_Siamo(){
 
             
             <div class="w-full md:w-1/3 px-4 mb-8">
-            <div class="border rounded-lg p-4">
+            <div class="border border-black rounded-lg p-4 hover:bg-gray-300">
             <p class="text-gray-800">
             Azienda fantastica, tempistiche brevi.<br/>
             Consiglio!<br/>
@@ -94,7 +94,7 @@ function Chi_Siamo(){
 
 
             <div class="w-full md:w-1/3 px-4 mb-8">
-            <div class="border rounded-lg p-4">
+            <div class="border border-black rounded-lg p-4 hover:bg-gray-300">
             <p class="text-gray-800">
             Vasta scelta per qualsiasi occasione<br/>
             Sia per feste private sia per andare a fare la spesa.<br/>
@@ -114,7 +114,7 @@ function Chi_Siamo(){
    
   </div>
         <div className='flex justify-center' >
-        <Link to='/Contattaci'> <button type="button" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800">Aggiungi una recensione!</button></Link>
+        <Link to='/Contattaci'> <button type="button" class="text-white hover:text-white border border-black hover:bg-black focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800">Aggiungi una recensione!</button></Link>
         </div>
 
 

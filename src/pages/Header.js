@@ -11,10 +11,14 @@ function Header(){
 
 
     return(
-<div className="">
-  <nav className="">
+
+
     <div>
         {/* Da creare navbar mobile */}
+        
+      
+          
+
 
 
         {/* Desktop */}
@@ -51,11 +55,13 @@ function Header(){
         </div>
       </ul>
     </div>
-   </div>
+  
       
-</nav>
 
-        </div>
+   </div>
+  
+      
+
     )
   }
 
