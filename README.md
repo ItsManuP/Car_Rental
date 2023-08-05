@@ -1,3 +1,7 @@
+#WIP_ Example of a Responsive Website for a Car Rental Company
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
