@@ -10,7 +10,7 @@ function CarSlider(){
         <div key={index} className="flex-container">
           {veicoli[Nome].map((veicolo, veicoloIndex) => (
             
-            <div key={veicoloIndex} class="flex-item w-1/2 h-1/2">
+            <div key={veicoloIndex} class="flex-item">
                 <div className="">
                 <img src={veicolo.Img} width={350} height={250} alt={veicolo.id} /> </div>
                <div className="flex"> 
