@@ -33,12 +33,12 @@ function Chi_Siamo(){
         </div>
 
 
-    <div className=' text-center pt-4 border-b border-red-500 '>
+    <div className="text-center pt-4 border-b border-red-500">
         <span className='text-3xl font-serif pt-2'>Staff</span>
             <div className="flex flex-col items-center pt-8 mr-20 ml-24 lg:mr-10 lg:ml-10">
             <div className="flex flex-wrap">
                 {team.map((member, index) => (
-                <div key={index} className="pl-4 pr-4 p-10 bg-white  m-4 rounded-lg shadow-lg border-b border-red-500 transition ease-in-out delay-50  hover:-translate-y-1 border-red-500">
+                <div key={index} className="pl-4 pr-4 p-10 bg-gray-200  m-4 rounded-lg shadow-lg border-b border-red-500 transition ease-in-out delay-50  hover:-translate-y-1 border-red-500">
                 <img src={member.img} alt={member.nome}  className="mx-auto mb-4 mx-auto rounded-full h-20 w-20"/>
                 <div className="text-2xl font-medium">{member.nome}</div>
                 <div className="text-xl text-center md:text-left font-ligth">{member.ruolo}</div>
@@ -49,10 +49,8 @@ function Chi_Siamo(){
     </div>
 
 
-
-    <div class="flex flex-wrap mt-2 ">
         
-
+        <div class="flex flex-wrap mt-2" >
             <div class="w-full md:w-1/3 px-4 mb-8 ">
             <div class="border border-black rounded-lg p-4 hover:bg-gray-300">
             <p class="text-gray-800">
@@ -70,7 +68,6 @@ function Chi_Siamo(){
             </div>
             </div>
             </div>
-
 
             
             <div class="w-full md:w-1/3 px-4 mb-8">
@@ -111,8 +108,19 @@ function Chi_Siamo(){
             </div>
             </div>
             </div>
-   
-  </div>
+
+            </div>
+            
+            
+
+
+
+
+
+
+
+
+       
         <div className='flex justify-center' >
         <Link to='/Contattaci'> <button type="button" class="text-white hover:text-white border border-black hover:bg-black focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800">Aggiungi una recensione!</button></Link>
         </div>
