@@ -31,22 +31,20 @@ function Home(){
         </h3>
         </div>
 
-        <div id="rettangolo" className="pt-6 flex" >
-        <div class="flex relative w-32 h-32 sm:w-80 sm:h-80 ">
-        <div class="absolute inset-0 w-full h-full bg-gradient-to-br from-indigo-300 to-pink-300 dark:from-indigo-900 dark:to-pink-900 transform origin-top-left -rotate-12 rounded-md"></div>
-        <div class="absolute inset-0 w-full h-full bg-gradient-to-br from-indigo-400 to-pink-400 dark:from-indigo-900 dark:to-pink-900 transform origin-top-right rotate-6 rounded-md"></div>
-    
-        </div>
-        </div>
+        
         
 
-        <div class="">
-        <div className=" items-center justify-center sm:h-max sm:w-max lg:text-3xl">
-            <Carslider className=""/></div>
+        <div className='sm:ml-20'>
+        <Carslider/>
+        </div>
+        
+        
+        
+        
         </div>
 
 
-       </div>
+    
        
     )
           
